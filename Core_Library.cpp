@@ -7,3 +7,7 @@ void NetworkingConnection() {
 void InitializeApplication() {
 	//TODO:Initializing application.
 }
+
+int main() {
+	return 0;
+}
