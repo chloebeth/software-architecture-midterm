@@ -1,10 +1,17 @@
 #include "pch.h"
 #include "CoreLibrary.h"
 
-void NetworkingConnection() {
+
+static CoreLibrary* theCoreLibrary = nullptr;
+
+void CoreLibrary::NetworkingConnection() {
 
 }
 
-void InitializingApplication() {
+void CoreLibrary::InitializingApplication() {
 
+}
+
+CoreLibrary* GetCoreLibrary() {
+	return theCoreLibrary;
 }

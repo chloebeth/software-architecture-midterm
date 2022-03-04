@@ -1,6 +1,16 @@
 #include "pch.h"
 #include "ControllerLibrary.h"
 
-void Rent_A_Dog(int value) {
+static ControllerLibrary* theControllerLibrary = nullptr;
 
+ControllerLibrary::ControllerLibrary() {
+
+}
+
+void ControllerLibrary::Rent_A_Dog(int value) {
+
+}
+
+ControllerLibrary* GetControllerLibrary() {
+	return theControllerLibrary;
 }

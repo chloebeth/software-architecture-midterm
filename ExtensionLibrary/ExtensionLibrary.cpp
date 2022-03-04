@@ -1,10 +1,17 @@
 #include "pch.h"
 #include "ExtensionLibrary.h"
 
-bool BooleanResult(bool value) {
+static ExtensionLibrary* theExtensionLibrary = nullptr;
+
+
+bool ExtensionLibrary::BooleanResult(bool value) {
 	return true;
 }
 
-bool IsRomanLetter(char c) {
+bool ExtensionLibrary::IsRomanLetter(char c) {
 	return false;
+}
+
+ExtensionLibrary* GetExtensionLibrary(){
+	return theExtensionLibrary;
 }

@@ -8,12 +8,12 @@
 #include "NetworkingLibrary.h"
 
 int main(){
-	SetUserName("Altair");
-	Rent_A_Dog(300);
-	UTCToLocal("10:52 p.m.");
-	NetworkingConnection();
-	IsRomanLetter(10);
-	Networking_Library("192.168.1.1", 443);
-	CreateForm();
+	GetApplicationLibrary()->SetUserName("Altair");
+	GetControllerLibrary()->Rent_A_Dog(300);
+	GetConverterLibrary()->UTCToLocal("10:52 p.m.");
+	GetCoreLibrary()->InitializingApplication();
+	GetExtensionLibrary()->IsRomanLetter(10);
+	GetNetworkingLibrary()->InitializeServer();
+	GetUILibrary()->CreateForm();
 	return 0;
 }

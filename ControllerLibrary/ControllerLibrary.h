@@ -1,10 +1,17 @@
 #pragma once
 #include<string>
-#define CONTROLLERLIBRARY_EXPORTS 1
+
 #ifdef CONTROLLERLIBRARY_EXPORTS
-#define CONTROLLERLIBRARY_EXPORTS _declspec(dllexport)
+#define CONTROLLERLIBRARY_API __declspec(dllexport)
 #else
-#define CONTROLLERLIBRARY_EXPORTS _declspec(dllimport)
+#define CONTROLLERLIBRARY_API __declspec(dllimport)
 #endif
 
-extern CONTROLLERLIBRARY_EXPORTS void Rent_A_Dog(int value);
+class CONTROLLERLIBRARY_API ControllerLibrary
+{
+public:
+	ControllerLibrary();
+	void Rent_A_Dog(int value);
+};
+
+extern CONTROLLERLIBRARY_API ControllerLibrary* GetControllerLibrary();

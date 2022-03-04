@@ -1,0 +1,10 @@
+x64/
+ApplicationLibrary/x64/
+ControllerLibray/x64/
+ConverterLibrary/x64/
+CoreLibrary/x64/
+ExtensionLibrary/x64/
+NetworkingLibrary/x64/
+Project1/x64/
+UILibrary/x64/
+.vs/

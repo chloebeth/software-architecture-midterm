@@ -2,15 +2,24 @@
 #include "NetworkingLibrary.h"
 #include <string>
 
-void Networking_Library(std::string address, int number) {
+static int ServicePortNumber;
+static std::string IPAddress;
+
+static NetworkingLibrary* theNetworkingLibrary = nullptr;
+
+NetworkingLibrary::NetworkingLibrary(std::string address, int number) {
 	ServicePortNumber = number;
 	IPAddress = address;
 }
 
-void Listener() {
+void NetworkingLibrary::Listener() {
 
 }
 
-void InitializeServer() {
+void NetworkingLibrary::InitializeServer() {
 
+}
+
+NetworkingLibrary* GetNetworkingLibrary() {
+	return theNetworkingLibrary;
 }

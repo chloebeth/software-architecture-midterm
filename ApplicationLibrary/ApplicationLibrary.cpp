@@ -2,30 +2,43 @@
 #include "ApplicationLibrary.h"
 #include <string>
 
+static std::string UserName;
+static int DogNumber;
 
-APPLICATIONLIBRARY_EXPORTS void SetUserName(std::string name) {
+static ApplicationLibrary* theApplicationLibrary = nullptr;
+
+ApplicationLibrary::ApplicationLibrary(){
+
+}
+
+void ApplicationLibrary::SetUserName(std::string name) {
 	UserName = name;
 }
 
-void SetDogNumber(int number) {
+void ApplicationLibrary::SetDogNumber(int number) {
 	DogNumber = number;
 }
 
-std::string GetUserName() {
+std::string ApplicationLibrary::GetUserName() {
 	return UserName;
 }
 
-int GetDogNumber() {
+int ApplicationLibrary::GetDogNumber() {
 	return DogNumber;
 }
 
-void Search_For_A_Dog() {
+void ApplicationLibrary::Search_For_A_Dog() {
 	//Perform database quary.
 }
 
-void Add_To_Shopping_Cart() {
+void ApplicationLibrary::Add_To_Shopping_Cart() {
 
 }
 
-void Checkout() {
+void ApplicationLibrary::Checkout() {
+
+}
+
+ApplicationLibrary* GetApplicationLibrary(){
+	return theApplicationLibrary;
 }

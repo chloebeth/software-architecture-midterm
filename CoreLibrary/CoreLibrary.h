@@ -1,13 +1,19 @@
 #pragma once
 #include<string>
-#define CORELIBRARY_EXPORTS 1
+
 #ifdef CORELIBRARY_EXPORTS
-#define CORELIBRARY_EXPORTS _declspec(dllexport)
+#define CORELIBRARY_API __declspec(dllexport)
 #else
-#define CORELIBRARY_EXPORTS _declspec(dllimport)
+#define CORELIBRARY_API __declspec(dllimport)
 #endif
 
-extern CORELIBRARY_EXPORTS void NetworkingConnection();
+class CORELIBRARY_API CoreLibrary {
+public:
+	CoreLibrary();
+	void NetworkingConnection();
+	void InitializingApplication();
 
-extern CORELIBRARY_EXPORTS void InitializingApplication();
+};
+
+extern CORELIBRARY_API CoreLibrary* GetCoreLibrary();
 

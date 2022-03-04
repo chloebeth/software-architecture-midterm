@@ -1,10 +1,16 @@
 #pragma once
 #include<string>
-#define UILIBRARY_EXPORTS 1
+
 #ifdef UILIBRARY_EXPORTS
-#define UILIBRARY_EXPORTS _declspec(dllexport)
+#define UILIBRARY_API __declspec(dllexport)
 #else
-#define UILIBRARY_EXPORTS _declspec(dllimport)
+#define UILIBRARY_API __declspec(dllimport)
 #endif
 
-extern UILIBRARY_EXPORTS void CreateForm();
+class UILIBRARY_API UILibrary {
+public:
+	UILibrary();
+	void CreateForm();
+};
+
+extern UILIBRARY_API UILibrary* GetUILibrary();

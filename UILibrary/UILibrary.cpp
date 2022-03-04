@@ -1,6 +1,17 @@
 #include "pch.h"
 #include "UILibrary.h"
 
-void CreateForm() {
+static UILibrary* theUILibrary = nullptr;
 
+UILibrary::UILibrary() {
+
+}
+
+void UILibrary::CreateForm() {
+
+}
+
+UILibrary* GetUILibrary() 
+{
+	return theUILibrary;
 }

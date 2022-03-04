@@ -1,3 +1,0 @@
-D:\学习\本科\2022Spring\软件架构\Mid-Term\All the Libraries\Project1\Debug\Project1.exe
-D:\学习\本科\2022Spring\软件架构\Mid-Term\All the Libraries\Project1\Debug\Project1.pdb
-D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\Project1.exe

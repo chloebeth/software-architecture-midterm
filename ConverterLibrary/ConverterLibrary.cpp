@@ -1,15 +1,20 @@
 #include "pch.h"
 #include "ConverterLibrary.h"
 
-std::string UTCToLocal(std::string value) {
+static ConverterLibrary* theConverterLibrary = nullptr;
+
+std::string ConverterLibrary::UTCToLocal(std::string value) {
 	return value;
 }
 
-std::string StringToSecondsConverter(std::string value) {
+std::string ConverterLibrary::StringToSecondsConverter(std::string value) {
 	return value;
 }
 
-bool IntNotLargerThanOne(int value) {
+bool ConverterLibrary::IntNotLargerThanOne(int value) {
 	return false;
 }
 
+ConverterLibrary* GetConverterLibrary() {
+	return theConverterLibrary;
+}

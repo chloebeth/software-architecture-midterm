@@ -1,11 +1,17 @@
 #pragma once
 #include<string>
-#define EXTENSIONLIBRARY_EXPORTS 1
+
 #ifdef EXTENSIONLIBRARY_EXPORTS
-#define EXTENSIONLIBRARY_EXPORTS _declspec(dllexport)
+#define EXTENSIONLIBRARY_API __declspec(dllexport)
 #else
-#define EXTENSIONLIBRARY_EXPORTS _declspec(dllimport)
+#define EXTENSIONLIBRARY_API __declspec(dllimport)
 #endif
 
-extern EXTENSIONLIBRARY_EXPORTS bool BooleanResult(bool value);
-extern EXTENSIONLIBRARY_EXPORTS bool IsRomanLetter(char c);
+class EXTENSIONLIBRARY_API ExtensionLibrary {
+public:
+	ExtensionLibrary();
+	bool BooleanResult(bool value);
+	bool IsRomanLetter(char c);
+};
+
+extern EXTENSIONLIBRARY_API ExtensionLibrary* GetExtensionLibrary();

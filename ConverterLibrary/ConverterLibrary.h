@@ -1,14 +1,20 @@
 #pragma once
 #include<string>
-#define CONVERTERLIBRARY_EXPORTS 1
+
 #ifdef CONVERTERLIBRARY_EXPORTS
-#define CONVERTERLIBRARY_EXPORTS _declspec(dllexport)
+#define CONVERTERLIBRARY_API __declspec(dllexport)
 #else
-#define CONVERTERLIBRARY_EXPORTS _declspec(dllimport)
+#define CONVERTERLIBRARY_API __declspec(dllimport)
 #endif
 
-extern CONVERTERLIBRARY_EXPORTS std::string UTCToLocal(std::string value);
-extern CONVERTERLIBRARY_EXPORTS std::string StringToSecondsConverter(std::string value);
-extern CONVERTERLIBRARY_EXPORTS bool IntNotLargerThanOne(int Number);
+class CONVERTERLIBRARY_API ConverterLibrary {
+public:
+	ConverterLibrary();
+	std::string UTCToLocal(std::string value);
+	std::string StringToSecondsConverter(std::string value);
+	bool IntNotLargerThanOne(int Number);
+};
 
+
+extern CONVERTERLIBRARY_API ConverterLibrary* GetConverterLibrary();
 
