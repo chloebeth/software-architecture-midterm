@@ -1,0 +1,4 @@
+﻿  ApplicationLibrary.cpp
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\ApplicationLibrary\ApplicationLibrary.h(6,1): warning C4005: 'APPLICATIONLIBRARY_EXPORTS': macro redefinition
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\ApplicationLibrary\pch.cpp : message : see previous definition of 'APPLICATIONLIBRARY_EXPORTS'
+  ApplicationLibrary.vcxproj -> D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\ApplicationLibrary.dll

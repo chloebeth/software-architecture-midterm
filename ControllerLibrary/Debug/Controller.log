@@ -1,0 +1,4 @@
+﻿  ControllerLibrary.cpp
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\ControllerLibrary\ControllerLibrary.h(5,1): warning C4005: 'CONTROLLERLIBRARY_EXPORTS': macro redefinition
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\ControllerLibrary\ControllerLibrary.h(3): message : see previous definition of 'CONTROLLERLIBRARY_EXPORTS'
+  Controller.vcxproj -> D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\ControllerLibrary.dll

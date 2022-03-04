@@ -1,0 +1,4 @@
+﻿  UILibrary.cpp
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\UILibrary\UILibrary.h(5,1): warning C4005: 'UILIBRARY_EXPORTS': macro redefinition
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\UILibrary\pch.cpp : message : see previous definition of 'UILIBRARY_EXPORTS'
+  UILibrary.vcxproj -> D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\UILibrary.dll

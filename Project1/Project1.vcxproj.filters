@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="App\Model">
+      <UniqueIdentifier>{b322bc66-bae3-44d4-b9fb-c5d7c784b5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Converter">
+      <UniqueIdentifier>{546b52e0-f93a-4a62-8278-66cfdf1cee19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Interface">
+      <UniqueIdentifier>{846f67d8-9436-4778-902b-f5db19a2d8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Enumerables">
+      <UniqueIdentifier>{f7101c1b-4b0e-4565-8e45-d2ada0122e0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MUser.cpp">
+      <Filter>App\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EDog.h">
+      <Filter>App\Enumerables</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MDog.h">
+      <Filter>App\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MUser.h">
+      <Filter>App\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+﻿  NetworkingLibrary.cpp
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\NetworkingLibrary\NetworkingLibrary.h(5,1): warning C4005: 'NETWORKINGLIBRARY_EXPORTS': macro redefinition
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\NetworkingLibrary\NetworkingLibrary.h(3): message : see previous definition of 'NETWORKINGLIBRARY_EXPORTS'
+  NetworkingLibrary.vcxproj -> D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\NetworkingLibrary.dll

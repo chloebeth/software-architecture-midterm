@@ -1,0 +1,4 @@
+﻿  CoreLibrary.cpp
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\CoreLibrary\CoreLibrary.h(5,1): warning C4005: 'CORELIBRARY_EXPORTS': macro redefinition
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\CoreLibrary\pch.cpp : message : see previous definition of 'CORELIBRARY_EXPORTS'
+  CoreLibrary.vcxproj -> D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\CoreLibrary.dll

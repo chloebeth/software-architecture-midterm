@@ -1,0 +1,4 @@
+﻿  ConverterLibrary.cpp
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\ConverterLibrary\ConverterLibrary.h(5,1): warning C4005: 'CONVERTERLIBRARY_EXPORTS': macro redefinition
+D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\ConverterLibrary\pch.cpp : message : see previous definition of 'CONVERTERLIBRARY_EXPORTS'
+  ConverterLibrary.vcxproj -> D:\Study\Bachelor\2022Spring\Software Architecture\Mid-Term\All the Libraries\Project1\Debug\ConverterLibrary.dll
