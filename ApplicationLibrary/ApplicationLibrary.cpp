@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "ApplicationLibrary.h"
 #include <string>
+#include "ExtensionLibrary.h"
 
 static std::string UserName;
 static int DogNumber;
