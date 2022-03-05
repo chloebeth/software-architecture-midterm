@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-04 20:28-0500\n"
+"POT-Creation-Date: 2022-03-04 21:44-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.cpp:22
+#: C:\Users\Chloe\Documents\Soft Arch\software-architecture-midterm\Project1\main.cpp:22
 msgid "hello world"
 msgstr "hallo welt"
-
-#: main.cpp:24
-msgctxt "file"
-msgid "open"
-msgstr "German open file"
-
-#: main.cpp:25
-msgctxt "file"
-msgid "close"
-msgstr "German close file"
